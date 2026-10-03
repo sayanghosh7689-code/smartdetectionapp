@@ -1,11 +1,4 @@
-"""
 
-smart_engine.py - offline log intelligence. No backend, no API key, no ML install.
-
-Pipeline: parse -> per-IP behaviour profiles -> detections -> statistical anomaly
-check -> attack-chain correlation -> plain-English summary.
-Returns the same JSON shape the Streamlit UI already understands.
-"""
 
 import re
 import statistics
