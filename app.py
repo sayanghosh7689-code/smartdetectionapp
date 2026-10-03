@@ -1,12 +1,4 @@
-"""
-cyber_app.py - AI Cybersecurity Copilot (Streamlit frontend)
-Theme: fire animation + glass icons + water droplets.
 
-Run:  streamlit run app.py
-cd C:\Users\KIIT\OneDrive\Desktop\cyapp
->> venv\Scripts\activate
->> streamlit run app.py
-"""
 
 import html
 import json
