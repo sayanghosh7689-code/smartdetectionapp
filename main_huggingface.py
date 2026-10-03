@@ -1,21 +1,4 @@
-"""
-AI Cybersecurity Copilot - Advanced FastAPI Backend
 
-Features
---------
-1. /health health check for the Streamlit frontend.
-2. /analyze accepts a log file and performs advanced rule-based detection.
-3. Optional Hugging Face Inference Providers LLM analysis for explanation/correlation.
-4. No Hugging Face dependency.
-5. LLM is an explanation/correlation layer; deterministic detections remain
-   the source of security findings.
-
-Environment variables
----------------------
-HF_TOKEN        Optional. If missing, the backend still works with rules.
-HF_MODEL        Optional. Default: meta-llama/Llama-3.1-8B-Instruct
-MAX_LOG_LINES    Optional. Default: 20000
-"""
 
 from __future__ import annotations
 
